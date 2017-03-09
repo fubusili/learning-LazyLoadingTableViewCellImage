@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B09C57F9DC4AA313C795D59 /* Pods_TableLazyLaodingImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C60D6F6AAF58626025873B /* Pods_TableLazyLaodingImage.framework */; };
+		F163E1C81E6FB47300D06DE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163E1C71E6FB47300D06DE9 /* AppDelegate.swift */; };
+		F163E1CA1E6FB47300D06DE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163E1C91E6FB47300D06DE9 /* ViewController.swift */; };
+		F163E1CD1E6FB47300D06DE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F163E1CB1E6FB47300D06DE9 /* Main.storyboard */; };
+		F163E1D01E6FB47400D06DE9 /* TableLazyLaodingImage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F163E1CE1E6FB47300D06DE9 /* TableLazyLaodingImage.xcdatamodeld */; };
+		F163E1D21E6FB47400D06DE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F163E1D11E6FB47400D06DE9 /* Assets.xcassets */; };
+		F163E1D51E6FB47400D06DE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F163E1D31E6FB47400D06DE9 /* LaunchScreen.storyboard */; };
+		F163E1E01E6FB47400D06DE9 /* TableLazyLaodingImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163E1DF1E6FB47400D06DE9 /* TableLazyLaodingImageTests.swift */; };
+		F163E1EB1E6FB47400D06DE9 /* TableLazyLaodingImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163E1EA1E6FB47400D06DE9 /* TableLazyLaodingImageUITests.swift */; };
+		F163E1F91E6FD20500D06DE9 /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F163E1F81E6FD20500D06DE9 /* ImageTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F163E1DC1E6FB47400D06DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F163E1BC1E6FB47300D06DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F163E1C31E6FB47300D06DE9;
+			remoteInfo = TableLazyLaodingImage;
+		};
+		F163E1E71E6FB47400D06DE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F163E1BC1E6FB47300D06DE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F163E1C31E6FB47300D06DE9;
+			remoteInfo = TableLazyLaodingImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E90A048378B77888EEEA2FE /* Pods-TableLazyLaodingImage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableLazyLaodingImage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableLazyLaodingImage/Pods-TableLazyLaodingImage.debug.xcconfig"; sourceTree = "<group>"; };
+		55C60D6F6AAF58626025873B /* Pods_TableLazyLaodingImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableLazyLaodingImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E13F6EDDC817D062F8B24EB2 /* Pods-TableLazyLaodingImage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableLazyLaodingImage.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableLazyLaodingImage/Pods-TableLazyLaodingImage.release.xcconfig"; sourceTree = "<group>"; };
+		F163E1C41E6FB47300D06DE9 /* TableLazyLaodingImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableLazyLaodingImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F163E1C71E6FB47300D06DE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F163E1C91E6FB47300D06DE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F163E1CC1E6FB47300D06DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F163E1CF1E6FB47300D06DE9 /* TableLazyLaodingImage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableLazyLaodingImage.xcdatamodel; sourceTree = "<group>"; };
+		F163E1D11E6FB47400D06DE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F163E1D41E6FB47400D06DE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F163E1D61E6FB47400D06DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F163E1DB1E6FB47400D06DE9 /* TableLazyLaodingImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableLazyLaodingImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F163E1DF1E6FB47400D06DE9 /* TableLazyLaodingImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableLazyLaodingImageTests.swift; sourceTree = "<group>"; };
+		F163E1E11E6FB47400D06DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F163E1E61E6FB47400D06DE9 /* TableLazyLaodingImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableLazyLaodingImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F163E1EA1E6FB47400D06DE9 /* TableLazyLaodingImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableLazyLaodingImageUITests.swift; sourceTree = "<group>"; };
+		F163E1EC1E6FB47400D06DE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F163E1F81E6FD20500D06DE9 /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F163E1C11E6FB47300D06DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B09C57F9DC4AA313C795D59 /* Pods_TableLazyLaodingImage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E1D81E6FB47400D06DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E1E31E6FB47400D06DE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA2B5ABE228EC71310A7C9D4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55C60D6F6AAF58626025873B /* Pods_TableLazyLaodingImage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F163E1BB1E6FB47300D06DE9 = {
+			isa = PBXGroup;
+			children = (
+				F163E1C61E6FB47300D06DE9 /* TableLazyLaodingImage */,
+				F163E1DE1E6FB47400D06DE9 /* TableLazyLaodingImageTests */,
+				F163E1E91E6FB47400D06DE9 /* TableLazyLaodingImageUITests */,
+				F163E1C51E6FB47300D06DE9 /* Products */,
+				FEFFDBF4F0E53C8CA9D87806 /* Pods */,
+				BA2B5ABE228EC71310A7C9D4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F163E1C51E6FB47300D06DE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F163E1C41E6FB47300D06DE9 /* TableLazyLaodingImage.app */,
+				F163E1DB1E6FB47400D06DE9 /* TableLazyLaodingImageTests.xctest */,
+				F163E1E61E6FB47400D06DE9 /* TableLazyLaodingImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F163E1C61E6FB47300D06DE9 /* TableLazyLaodingImage */ = {
+			isa = PBXGroup;
+			children = (
+				F163E1C71E6FB47300D06DE9 /* AppDelegate.swift */,
+				F163E1C91E6FB47300D06DE9 /* ViewController.swift */,
+				F163E1F81E6FD20500D06DE9 /* ImageTableViewCell.swift */,
+				F163E1CB1E6FB47300D06DE9 /* Main.storyboard */,
+				F163E1D11E6FB47400D06DE9 /* Assets.xcassets */,
+				F163E1D31E6FB47400D06DE9 /* LaunchScreen.storyboard */,
+				F163E1D61E6FB47400D06DE9 /* Info.plist */,
+				F163E1CE1E6FB47300D06DE9 /* TableLazyLaodingImage.xcdatamodeld */,
+			);
+			path = TableLazyLaodingImage;
+			sourceTree = "<group>";
+		};
+		F163E1DE1E6FB47400D06DE9 /* TableLazyLaodingImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				F163E1DF1E6FB47400D06DE9 /* TableLazyLaodingImageTests.swift */,
+				F163E1E11E6FB47400D06DE9 /* Info.plist */,
+			);
+			path = TableLazyLaodingImageTests;
+			sourceTree = "<group>";
+		};
+		F163E1E91E6FB47400D06DE9 /* TableLazyLaodingImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F163E1EA1E6FB47400D06DE9 /* TableLazyLaodingImageUITests.swift */,
+				F163E1EC1E6FB47400D06DE9 /* Info.plist */,
+			);
+			path = TableLazyLaodingImageUITests;
+			sourceTree = "<group>";
+		};
+		FEFFDBF4F0E53C8CA9D87806 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E90A048378B77888EEEA2FE /* Pods-TableLazyLaodingImage.debug.xcconfig */,
+				E13F6EDDC817D062F8B24EB2 /* Pods-TableLazyLaodingImage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F163E1C31E6FB47300D06DE9 /* TableLazyLaodingImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F163E1EF1E6FB47400D06DE9 /* Build configuration list for PBXNativeTarget "TableLazyLaodingImage" */;
+			buildPhases = (
+				4CDB8A7F2D39F8179978D36F /* [CP] Check Pods Manifest.lock */,
+				F163E1C01E6FB47300D06DE9 /* Sources */,
+				F163E1C11E6FB47300D06DE9 /* Frameworks */,
+				F163E1C21E6FB47300D06DE9 /* Resources */,
+				8820738A262D08AFCC0E8148 /* [CP] Embed Pods Frameworks */,
+				C73F6472EA19BFD59B7CB33C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableLazyLaodingImage;
+			productName = TableLazyLaodingImage;
+			productReference = F163E1C41E6FB47300D06DE9 /* TableLazyLaodingImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F163E1DA1E6FB47400D06DE9 /* TableLazyLaodingImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F163E1F21E6FB47400D06DE9 /* Build configuration list for PBXNativeTarget "TableLazyLaodingImageTests" */;
+			buildPhases = (
+				F163E1D71E6FB47400D06DE9 /* Sources */,
+				F163E1D81E6FB47400D06DE9 /* Frameworks */,
+				F163E1D91E6FB47400D06DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F163E1DD1E6FB47400D06DE9 /* PBXTargetDependency */,
+			);
+			name = TableLazyLaodingImageTests;
+			productName = TableLazyLaodingImageTests;
+			productReference = F163E1DB1E6FB47400D06DE9 /* TableLazyLaodingImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F163E1E51E6FB47400D06DE9 /* TableLazyLaodingImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F163E1F51E6FB47400D06DE9 /* Build configuration list for PBXNativeTarget "TableLazyLaodingImageUITests" */;
+			buildPhases = (
+				F163E1E21E6FB47400D06DE9 /* Sources */,
+				F163E1E31E6FB47400D06DE9 /* Frameworks */,
+				F163E1E41E6FB47400D06DE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F163E1E81E6FB47400D06DE9 /* PBXTargetDependency */,
+			);
+			name = TableLazyLaodingImageUITests;
+			productName = TableLazyLaodingImageUITests;
+			productReference = F163E1E61E6FB47400D06DE9 /* TableLazyLaodingImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F163E1BC1E6FB47300D06DE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Clark;
+				TargetAttributes = {
+					F163E1C31E6FB47300D06DE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = Y5AS6AEYYG;
+						ProvisioningStyle = Automatic;
+					};
+					F163E1DA1E6FB47400D06DE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F163E1C31E6FB47300D06DE9;
+					};
+					F163E1E51E6FB47400D06DE9 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F163E1C31E6FB47300D06DE9;
+					};
+				};
+			};
+			buildConfigurationList = F163E1BF1E6FB47300D06DE9 /* Build configuration list for PBXProject "TableLazyLaodingImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F163E1BB1E6FB47300D06DE9;
+			productRefGroup = F163E1C51E6FB47300D06DE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F163E1C31E6FB47300D06DE9 /* TableLazyLaodingImage */,
+				F163E1DA1E6FB47400D06DE9 /* TableLazyLaodingImageTests */,
+				F163E1E51E6FB47400D06DE9 /* TableLazyLaodingImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F163E1C21E6FB47300D06DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F163E1D51E6FB47400D06DE9 /* LaunchScreen.storyboard in Resources */,
+				F163E1D21E6FB47400D06DE9 /* Assets.xcassets in Resources */,
+				F163E1CD1E6FB47300D06DE9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E1D91E6FB47400D06DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E1E41E6FB47400D06DE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4CDB8A7F2D39F8179978D36F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8820738A262D08AFCC0E8148 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableLazyLaodingImage/Pods-TableLazyLaodingImage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C73F6472EA19BFD59B7CB33C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableLazyLaodingImage/Pods-TableLazyLaodingImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F163E1C01E6FB47300D06DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F163E1CA1E6FB47300D06DE9 /* ViewController.swift in Sources */,
+				F163E1F91E6FD20500D06DE9 /* ImageTableViewCell.swift in Sources */,
+				F163E1C81E6FB47300D06DE9 /* AppDelegate.swift in Sources */,
+				F163E1D01E6FB47400D06DE9 /* TableLazyLaodingImage.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E1D71E6FB47400D06DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F163E1E01E6FB47400D06DE9 /* TableLazyLaodingImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F163E1E21E6FB47400D06DE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F163E1EB1E6FB47400D06DE9 /* TableLazyLaodingImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F163E1DD1E6FB47400D06DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F163E1C31E6FB47300D06DE9 /* TableLazyLaodingImage */;
+			targetProxy = F163E1DC1E6FB47400D06DE9 /* PBXContainerItemProxy */;
+		};
+		F163E1E81E6FB47400D06DE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F163E1C31E6FB47300D06DE9 /* TableLazyLaodingImage */;
+			targetProxy = F163E1E71E6FB47400D06DE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F163E1CB1E6FB47300D06DE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F163E1CC1E6FB47300D06DE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F163E1D31E6FB47400D06DE9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F163E1D41E6FB47400D06DE9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F163E1ED1E6FB47400D06DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F163E1EE1E6FB47400D06DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F163E1F01E6FB47400D06DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E90A048378B77888EEEA2FE /* Pods-TableLazyLaodingImage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5AS6AEYYG;
+				INFOPLIST_FILE = TableLazyLaodingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.TableLazyLaodingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F163E1F11E6FB47400D06DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E13F6EDDC817D062F8B24EB2 /* Pods-TableLazyLaodingImage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Y5AS6AEYYG;
+				INFOPLIST_FILE = TableLazyLaodingImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.TableLazyLaodingImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F163E1F31E6FB47400D06DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableLazyLaodingImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.TableLazyLaodingImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableLazyLaodingImage.app/TableLazyLaodingImage";
+			};
+			name = Debug;
+		};
+		F163E1F41E6FB47400D06DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableLazyLaodingImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.TableLazyLaodingImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableLazyLaodingImage.app/TableLazyLaodingImage";
+			};
+			name = Release;
+		};
+		F163E1F61E6FB47400D06DE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TableLazyLaodingImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.TableLazyLaodingImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableLazyLaodingImage;
+			};
+			name = Debug;
+		};
+		F163E1F71E6FB47400D06DE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TableLazyLaodingImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = clark.TableLazyLaodingImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TableLazyLaodingImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F163E1BF1E6FB47300D06DE9 /* Build configuration list for PBXProject "TableLazyLaodingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F163E1ED1E6FB47400D06DE9 /* Debug */,
+				F163E1EE1E6FB47400D06DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F163E1EF1E6FB47400D06DE9 /* Build configuration list for PBXNativeTarget "TableLazyLaodingImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F163E1F01E6FB47400D06DE9 /* Debug */,
+				F163E1F11E6FB47400D06DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F163E1F21E6FB47400D06DE9 /* Build configuration list for PBXNativeTarget "TableLazyLaodingImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F163E1F31E6FB47400D06DE9 /* Debug */,
+				F163E1F41E6FB47400D06DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F163E1F51E6FB47400D06DE9 /* Build configuration list for PBXNativeTarget "TableLazyLaodingImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F163E1F61E6FB47400D06DE9 /* Debug */,
+				F163E1F71E6FB47400D06DE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F163E1CE1E6FB47300D06DE9 /* TableLazyLaodingImage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F163E1CF1E6FB47300D06DE9 /* TableLazyLaodingImage.xcdatamodel */,
+			);
+			currentVersion = F163E1CF1E6FB47300D06DE9 /* TableLazyLaodingImage.xcdatamodel */;
+			path = TableLazyLaodingImage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F163E1BC1E6FB47300D06DE9 /* Project object */;
+}
